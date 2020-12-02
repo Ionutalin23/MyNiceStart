@@ -2,4 +2,4 @@
         > Linux is love
         splash | login
         -------|------
-![Ionutalin23](img/splash.png)|![](img/login.jpg)
+![Ionutalin23](img/splash.PNG)|![](img/login.PNG)
