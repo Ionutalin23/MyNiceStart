@@ -1,7 +1,5 @@
 # Proyecto MyNiceStart Ionut
-    * italic
-        * item
         > Linux is love
         splash | login
         -------|------
-        ![Ionutalin23](img/splash.jpg)|![](img/login.jpg)
+![Ionutalin23](img/splash.png)|![](img/login.jpg)
