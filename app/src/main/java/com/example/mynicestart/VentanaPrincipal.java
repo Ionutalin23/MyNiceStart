@@ -11,6 +11,11 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
+/**Muestra el perfil del usuario logeado. Para ver el contenido de la
+ * aplicación, se deberá pulsar sobre el botón "Acceder"
+ * @author Ionut Alin
+ * @see MainActivity
+ */
 public class VentanaPrincipal extends AppCompatActivity {
     Button btn_ok;
     ImageView imgPerfil;

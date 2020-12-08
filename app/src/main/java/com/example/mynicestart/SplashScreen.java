@@ -18,7 +18,7 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 /**Crea un Activity con el logo de la app y arranca la aplicacion
  * @author Ionut Alin Bozintan
  * @see LoginActivity
- * @version 0.1
+ * @version Beta 0.1
  */
 
 public class SplashScreen extends Activity {
@@ -47,7 +47,11 @@ public class SplashScreen extends Activity {
         openApp(true);
     }
 
-
+    /**
+     * Crea un nuevo intent que inicia el splash screen y que transurridos 5 segundos,
+     * muestra la ventana de login.
+     * @param locationPermission
+     */
     private void openApp(boolean locationPermission) {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {

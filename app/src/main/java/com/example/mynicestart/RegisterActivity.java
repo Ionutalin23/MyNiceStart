@@ -7,9 +7,12 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
+/**Permite crear un nuevo usuario para iniciar sesion en la aplicacion
+ * @author Ionut Alin
+ * @see LoginActivity
+ */
 public class RegisterActivity extends AppCompatActivity {
     TextView txtLogin;
     ImageView imgLogo2;

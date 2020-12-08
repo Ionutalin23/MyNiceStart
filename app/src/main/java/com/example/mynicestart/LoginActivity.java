@@ -11,8 +11,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
     /**Crea un activity con una animacion y unos campos que son necesarios para iniciar sesión
-    en la aplicacion
+    en la aplicacion, si no se dispone de una cuenta, puede pulsar sobre el textView "Register"
+    para crear una cuenta.
     @see RegisterActivity
+    @see VentanaPrincipal
     * */
 public class LoginActivity extends AppCompatActivity {
     Button btn_login;
