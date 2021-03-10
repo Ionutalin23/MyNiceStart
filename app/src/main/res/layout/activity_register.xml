@@ -75,7 +75,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageView
-        android:id="@+id/imgLogo2"
+        android:id="@+id/imgLogo"
         android:layout_width="313dp"
         android:layout_height="138dp"
         android:layout_marginTop="40dp"
@@ -89,14 +89,13 @@
         tools:srcCompat="@drawable/logo2" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton2"
+        android:id="@+id/btn_register"
         style="@style/ButtonOutlined"
         android:layout_width="299dp"
         android:layout_height="82dp"
         android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
         android:fontFamily="@font/roboto_slab"
-        android:text="REGISTER"
+        android:text="@string/register"
         android:textColor="@color/darkblue"
 
 
@@ -104,7 +103,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4"
-        app:layout_constraintVertical_bias="0.092"
+        app:layout_constraintVertical_bias="0.049"
         tools:ignore="ExtraText">
 
 
@@ -119,28 +118,32 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="408dp"
-        android:layout_height="175dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="396dp"
+        android:layout_height="152dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="16dp"
         android:background="#59FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtLogin"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/run" />
 
     <TextView
         android:id="@+id/txtLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_width="214dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/login"
+        android:text="@string/login_here"
+        android:textAlignment="center"
         android:textColor="#07038C"
         android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton2" />
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

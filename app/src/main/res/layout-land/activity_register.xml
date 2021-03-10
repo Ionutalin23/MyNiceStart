@@ -69,12 +69,11 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="884dp"
-        android:layout_height="125dp"
+        android:layout_width="937dp"
+        android:layout_height="99dp"
         android:layout_marginTop="4dp"
-        android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo2"
@@ -82,14 +81,13 @@
         tools:srcCompat="@drawable/logo2" />
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/materialButton2"
+        android:id="@+id/btn_register"
         style="@style/ButtonOutlined"
         android:layout_width="299dp"
         android:layout_height="82dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginLeft="4dp"
+        android:layout_marginStart="8dp"
         android:fontFamily="@font/roboto_slab"
-        android:text="REGISTER"
+        android:text="@string/register"
         android:textColor="@color/darkblue"
 
         android:textSize="24sp"
@@ -110,27 +108,25 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="391dp"
-        android:layout_height="168dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="337dp"
+        android:layout_height="182dp"
+        android:layout_marginEnd="392dp"
         android:background="#59FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtLogin"
         app:srcCompat="@drawable/run" />
 
     <TextView
         android:id="@+id/txtLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="260dp"
         android:fontFamily="@font/roboto_bold"
-        android:text="@string/login"
+        android:text="@string/login_here"
         android:textColor="#07038C"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/materialButton2" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_register" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
