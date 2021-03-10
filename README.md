@@ -4,6 +4,11 @@
 splash | login
 -------|------
 ![Ionutalin23](img/splash.PNG) | ![](img/login.PNG)
-register | main
+register | perfil
 ![](img/register.PNG) | ![](img/perfil.PNG)
-![](img/main.PNG) |
+main | alertDialog
+![](img/main.PNG) | ![](img/alert.PNG)
+expandable | menuContextual
+![](img/expandable.PNG) | ![](img/menu_contextual.PNG)
+swipe |
+![](img/swipe.PNG) | 
